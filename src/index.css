@@ -1,0 +1,161 @@
+* {
+    font-family: "Helvetica", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-styles {
+    background-color: #659FF6;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link-item {
+    padding: 20px 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #1A3662;
+    text-decoration: none;
+}
+
+.nav-link-item.active {
+    color: white;
+    font-weight: bold;
+}
+
+
+.user-card-styles,.user-card-admin-styles {
+    background-color: #1A3662;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    margin: 20px 50px;
+}
+
+.user-card-styles{
+    cursor: pointer;
+}
+
+.user-card-extended,
+.user-edit {
+    background-color: #1A3662;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 100px;
+    margin: 20px 30px;
+}
+
+.button {
+    color: #1A3662;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #1A3662;
+    padding: 10px 70px;
+    font-size: large;
+    margin: 20px 30px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.users-cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 60px;
+}
+
+.card-text {
+    color: white;
+    text-decoration: none;
+}
+
+.loading-text {
+    color: #1A3662;
+    text-align: center;
+    font-size: 60px;
+}
+
+.button-header {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.update-button {
+    background-color: #C0D8FD;
+    color: #1A3662;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: solid 1px #1A3662;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.delete-button {
+    background-color: #1A3662;
+    color: #C0D8FD;
+    border: solid 1px #C0D8FD;
+    border-radius: 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.link-button{
+    text-decoration: none;
+}
+
+.admin-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.user-edit-input {
+    width: 100%;
+    background-color: #C0D8FD;
+    color: #1A3662;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.label-and-input {
+    width: 50%;
+}
+
+.back-button-edit {
+    color: #1A3662;
+    border-radius: 10px;
+    border-color: #1A3662;
+    padding: 10px 70px;
+    font-size: large;
+    margin: 20px 30px 0px;
+    cursor: pointer;
+}
+
+.save-button-edit {
+    color: #1A3662;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #C0D8FD;
+    padding: 10px 70px;
+    font-size: large;
+    margin: 20px 30px 0px;
+    cursor: pointer;
+}
+
+.edit-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 60px;
+}
+
+input {
+    border: none;
+}
